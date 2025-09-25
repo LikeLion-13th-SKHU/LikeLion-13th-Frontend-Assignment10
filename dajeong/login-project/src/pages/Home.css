@@ -1,0 +1,21 @@
+body{ margin:0; }
+
+.home-page{
+  display:flex; flex-direction:column; justify-content:center; align-items:center;
+  gap:20px; text-align:center; padding:24px; background:#f5f6f7; min-height:100vh;
+}
+
+.home-title{ margin:0; font-size:26px; font-weight:700; color:#222; }
+.home-text{ margin:0; font-size:16px; color:#444; }
+
+/* 비밀번호 변경 버튼 */
+.change-button {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
