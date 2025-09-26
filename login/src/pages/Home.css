@@ -1,0 +1,22 @@
+
+body{ margin:0; }
+
+.home-page{
+  display:flex; flex-direction:column; justify-content:center; align-items:center;
+  gap:20px; text-align:center; padding:24px; background:#f5f6f7; min-height:100vh;
+}
+
+.home-title{ margin:0; font-size:26px; font-weight:700; color:#222; }
+.home-text{ margin:0; font-size:16px; color:#444; }
+.home-change {
+  width: 7%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #333;                      
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .15s ease, transform .04s ease;
+}

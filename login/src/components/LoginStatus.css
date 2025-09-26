@@ -1,0 +1,29 @@
+
+/* 로그인 상태 카드 */
+.status-wrap {
+  width: 320px;                          
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #ffffff;                   
+  border: 1px solid #e6e7e8;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  color: #222;                           
+}
+
+/* 로그아웃 버튼 */
+.logout-button {
+  border: none;
+  background: #d93025;                   
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background .15s ease, transform .04s ease;
+}
+.logout-button:hover { background: #b0241b; }
+.logout-button:active { transform: translateY(1px); }
