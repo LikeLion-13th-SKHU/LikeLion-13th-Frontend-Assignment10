@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  background: #f8f9fa;
+}
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}

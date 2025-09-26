@@ -1,0 +1,64 @@
+/* src/components/LoginForm.css */
+.login-form {
+  width: 360px; /* 너비 조정 */
+  box-sizing: border-box; /* padding, border가 너비에 포함되도록 */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 22px; /* 패딩 조정 */
+  background: #ffffff;
+  border: 1px solid #e6e7e8;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.login-title {
+  margin: 2px 0 12px; /* 여백 조정 */
+  text-align: center;
+  font-size: 20px; /* 폰트 크기 조정 */
+  font-weight: 700;
+  color: #222;
+}
+
+.login-input {
+  padding: 14px; /* 패딩 조정 */
+  border: 1px solid #e6e7e8;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 14px;
+}
+.login-input::placeholder {
+  color: #9aa0a6;
+}
+.login-input:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+}
+
+.login-error {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: #d93025;
+}
+
+.login-button {
+  width: auto; /* 너비를 내용에 맞게 자동으로 조절 */
+  padding: 12px 20px; /* 상하좌우 여백을 다시 지정 */
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  font-size: 15px; /* 폰트 크기를 고정값으로 지정 */
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.login-button:hover {
+  background: #444;
+}
+.login-button:active {
+  transform: translateY(1px);
+}

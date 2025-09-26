@@ -1,0 +1,37 @@
+/* src/components/LoginStatus.css */
+.status-wrap {
+  box-sizing: border-box; /* padding, border가 너비에 포함되도록 */
+  width: 360px; /* 너비 조정 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px; /* 패딩 조정 */
+  background: #ffffff;
+  border: 1px solid #e6e7e8;
+  border-radius: 12px; /* border-radius 조정 */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  color: #222;
+}
+
+.status-wrap span b {
+  font-weight: 600; /* 폰트 두께 조정 */
+}
+
+.logout-button {
+  border: none;
+  background: #eb5757; /* 이미지와 유사한 붉은 계열 색상 */
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 14px; /* 패딩 조정 */
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500; /* 폰트 두께 추가 */
+  transition: background 0.15s ease, transform 0.04s ease;
+}
+.logout-button:hover {
+  background: #d44c4c;
+}
+.logout-button:active {
+  transform: translateY(1px);
+}
